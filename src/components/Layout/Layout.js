@@ -7,6 +7,7 @@ export default function Layout({ children }) {
         <Box>
             <ThemeProvider theme={theme}>
                 <CssBaseline />
+                hello
                 {children}
             </ThemeProvider>
         </Box>
